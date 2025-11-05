@@ -1,1 +1,25 @@
+# Appointment Test Cases
 
+This document lists key manual test cases for the Online Appointment System.  
+Each case includes preconditions, steps and the expected result. See the Excel file for full details.
+
+## Scope
+- Authentication (login)
+- Appointment booking, reschedule, cancellation
+- Notifications (email/SMS)
+- Provider availability
+- Security monitoring (basic alert)
+
+## Sample Cases
+- **TC-LOGIN-001** – Login with valid credentials → user lands on dashboard, session created.  
+- **TC-LOGIN-002** – Invalid password → error message, no session.  
+- **TC-BOOK-001** – Book available slot → booking saved, confirmation shown.  
+- **TC-BOOK-002** – Prevent double booking → conflict message.  
+- **TC-BOOK-003** – Reschedule to a different slot → time updated, provider schedule refreshed.  
+- **TC-BOOK-004** – Cancel ≥2h before start → booking removed, slot opens, notification sent.  
+- **TC-BOOK-005** – Block cancellation <2h → policy message shown.  
+- **TC-NOTIF-001** – Confirmation email/SMS sent after booking/reschedule.  
+- **TC-PROV-001** – Provider sets working hours → only in-range slots visible.  
+- **TC-SEC-001** – Suspicious IP triggers alert → access blocked/challenged, alert logged.
+
+*For full steps and preconditions, refer to the Excel sheet.*

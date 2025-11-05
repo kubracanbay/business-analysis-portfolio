@@ -5,7 +5,7 @@ The goal is to illustrate how users interact with the system, from login to book
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 Wireframes demonstrate:
 - The logical structure of key screens.  
 - The relationship between user actions and system responses.  
@@ -15,7 +15,7 @@ They are intentionally minimal — focusing on user flow, not visual styling.
 
 ---
 
-## 🧩 Included Wireframes
+##  Included Wireframes
 
 ### 1. Login Page (`Login_Page_Wireframe.png`)
 **Objective:**  
@@ -52,6 +52,6 @@ Display confirmation details after a successful booking.
 
 ---
 
-## 🗂 File Naming Convention
+##  File Naming Convention
 All wireframes are saved in `.png` format and should follow this structure:
 
